@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Page </title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+
+<div class="hero">
+	<div class="form-box">
+		<div class="button-box">
+			<div id="btn"></div>
+			<button type="button" class="toggle-btn" onclick="login()">Login</button>
+			<button type="button" class="toggle-btn" onclick="register()">Register</button>
+		</div>
+		<div class="social-icons">
+			<img src="images/fb.png">
+			<img src="images/tw.png">
+			<img src="images/gp.png">
+		</div>
+
+		<form class="input-group" id="login">
+			<input type="text" name="username" placeholder="Name" class="input-field" required autocomplete="off">
+			<input type="password" name="password" placeholder="Password" class="input-field" required>
+			<button type="submit" class="submit-btn">Login</button>
+		</form>
+
+		<form class="input-group" id="register">
+			<input type="text" name="username" placeholder="Name" class="input-field" required autocomplete="off">
+			<input type="email" name="email" placeholder="Email" class="input-field" required autocomplete="off">
+			<input type="password" name="password" placeholder="Password" class="input-field" required>
+			<input type="password" name="password" placeholder="Confirm Password" class="input-field" required>
+			<button type="submit" class="submit-btn">Register</button>
+	</form>
+
+	</div>
+</div>
+
+<script type="text/javascript" src="Javascript/login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    background:rgb(255,228,181);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 95%;
+    height: 50px;
+    margin: auto;
+    background-color: darkcyan;
+    border-radius: 0.4rem;
+}
+
+.theUl{
+    display: flex;
+    flex: 2 3 30rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+}
+
+.theLogo{
+    display: flex;
+    flex: 2 1 30rem;
+    align-items: center;
+    border-radius: 50%;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: 4px;
+    border: 2px solid transparent;
+    background:linear-gradient(red,yellow);
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #36fde4;
+}
+a:hover{
+    color:#EED012;
+}
+
+/*#36fdc0*/
+
+.sliderContainer{
+    width: 95%;
+    margin: auto;
+}
+
+.theSlider img{
+    width: 100%;
+    background-size: cover;
+    border-radius:0.5rem;
+    margin: 0.1rem 0;
+    height: 450px;
+}
+
+.forButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forButton button{
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: blueviolet;
+    margin: 0 0.5rem;
+}
+
+.box-scroll{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    margin: 10px 10px 10px 1100px;
+    display: inline;
+    border: 2px solid #4ca3dd;
+    background-color: #ffede7;
+}
+.mymobile{
+    margin: 20px 10px 2px 50px;
+}
+.mymobile a{
+    color: black;
+}
+
+@media(max-width: 768px){
+    .box-scroll{
+        width: 130px;
+        height: 200px;
+        position: absolute;
+        margin: 5px 0px 10px 340px;
+    }
+    .mymobile{
+        margin: 10px 10px 2px 10px;
+        text-align: center;
+    }
+}
